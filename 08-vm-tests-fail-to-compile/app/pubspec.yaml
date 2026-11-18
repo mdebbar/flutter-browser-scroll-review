@@ -1,0 +1,21 @@
+name: repro_app
+description: Repro app for flutter_browser_scroll.
+publish_to: 'none'
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_browser_scroll:
+    git:
+      url: https://github.com/flutter-zl/flutter-browser-scroll.git
+      ref: 7193d2085cbb836bec3a3bf5e371e2250a9d5136 # v0.3.0
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
